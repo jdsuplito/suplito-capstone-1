@@ -237,62 +237,62 @@
 
 		<!-- CONTACT PAGE START -->
 		<div data-aos="fade-up"
-			data-aos-anchor-placement="top-center" id="contact-page" class="my-5 p-md-5 css-info">
-			<h2 class="border-bottom border-dark pb-md-2 pb-2 fw-bolder">Contact Information</h2>
-			<div class="d-flex justify-content-around align-items-center mt-md-5 mb-md-5">
-				<a class="css-contact text-dark" href="mailto:jdsuplito@gmail.com" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Gmail">
-					<i class="bi bi-envelope-at"></i>
-				</a>
-				<a class="css-contact text-dark" href="https://www.linkedin.com/company/login/" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="LinkedIn">
-					<i class="bi bi-linkedin"></i>
-				</a>
-				<a class="css-contact text-dark" href="https://github.com/jdsuplito" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Github">
-					<i class="bi bi-github"></i>
-				</a>
+		data-aos-anchor-placement="top-center" id="contact-page" class="my-5 p-md-5 css-info">
+		<h2 class="border-bottom border-dark pb-md-2 pb-2 fw-bolder">Contact Information</h2>
+		<div class="d-flex justify-content-around align-items-center mt-md-5 mb-md-5">
+			<a class="css-contact text-dark" href="mailto:jdsuplito@gmail.com" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Gmail">
+				<i class="bi bi-envelope-at"></i>
+			</a>
+			<a class="css-contact text-dark" href="https://www.linkedin.com/company/login/" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="LinkedIn">
+				<i class="bi bi-linkedin"></i>
+			</a>
+			<a class="css-contact text-dark" href="https://github.com/jdsuplito" data-bs-toggle="tooltip" data-bs-placement="bottom" data-bs-title="Github">
+				<i class="bi bi-github"></i>
+			</a>
+		</div>
+		<div class="p-3 p-md-5 bg-dark rounded">
+			<div class="d-flex flex-row">
+				<div class="form-floating mb-3 me-2 me-md-4 w-100">
+					<input type="text" class="form-control" id="floatingInput" placeholder="Your Name" required>
+					<label for="floatingInput">Name</label>
+				</div>
+				<div class="form-floating mb-3 w-100">
+					<input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
+					<label for="floatingInput">Email address</label>
+				</div>
 			</div>
-			<div class="p-3 p-md-5 bg-dark rounded">
-				<div class="d-flex flex-row">
-					<div class="form-floating mb-3 me-2 me-md-4 w-100">
-						<input type="text" class="form-control" id="floatingInput" placeholder="Your Name" required>
-						<label for="floatingInput">Name</label>
-					</div>
-					<div class="form-floating mb-3 w-100">
-						<input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
-						<label for="floatingInput">Email address</label>
-					</div>
+			<div>
+				<div class="form-floating">
+					<textarea class="form-control css-textarea" placeholder="Leave a comment here" id="floatingTextarea2"></textarea>
+					<label for="floatingTextarea2 ms-3">Comments</label>
 				</div>
-				<div>
-					<div class="form-floating">
-						<textarea class="form-control css-textarea" placeholder="Leave a comment here" id="floatingTextarea2"></textarea>
-						<label for="floatingTextarea2 ms-3">Comments</label>
-					</div>
+			</div>
+			<div class="d-flex justify-content-center align-items-center mt-3 p-md-4">
+
+		<button type="button" class="btn btn-light text-center" data-bs-toggle="modal" data-bs-target="#exampleModal">
+			Send Email
+		</button>
+		</div>
+	</div>
+	</div>
+	
+	<div class="modal fade css-modal" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h1 class="modal-title fs-5" id="exampleModalLabel">Thank You For Messaging Us!</h1>
+					<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
 				</div>
-				<div class="d-flex justify-content-center align-items-center mt-3 p-md-4">
-
-					<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#exampleModal">
-						Send Email
-					</button>
-
-					<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-						<div class="modal-dialog">
-							<div class="modal-content">
-								<div class="modal-header">
-									<h1 class="modal-title fs-5" id="exampleModalLabel">Thank You For Contacting Us!</h1>
-									<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-								</div>
-								<div class="modal-body">
-									<h5 class="text-center">Message Sent!</h5>
-								</div>
-								<div class="modal-footer">
-									<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-								</div>
-							</div>
-						</div>
-					</div>
+				<div class="modal-body">
+					<h5 class="text-center">Message Sent!</h5>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
 				</div>
 			</div>
 		</div>
-		<!-- CONTACT PAGE END -->
+	</div>
+	<!-- CONTACT PAGE END -->
 </div>
 
 
@@ -331,7 +331,6 @@ data-aos-anchor-placement="top-bottom" class="bg-dark text-light p-md-5 css-foot
 </div>
 <!-- FOOTER END -->
 </div>
-
 
 <!-- bootstrap links -->
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>

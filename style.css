@@ -20,6 +20,48 @@
     scroll-margin-top: 200px;
 }
 
+.css-caret {
+    animation: slowblinks 500ms infinite alternate;
+}
+
+.css-blur {
+    background-color: #ffffff3d;
+    backdrop-filter: blur(6px);
+}
+
+
+@keyframes slowblinks {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+.css-video {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 500vw;
+    animation: colorshift 50s infinite;
+}
+
+@keyframes colorshift {
+    from {
+        filter: hue-rotate(0deg);
+    }
+
+    to {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.css-main {
+    overflow: hidden;
+}
+
 .css-logo {
     width: 80px;
 }
@@ -67,7 +109,7 @@
 
 .css-arrow-down {
     animation: arrow-down 0.90s infinite alternate ease-in-out;
-    text-shadow: 1px 3px 2px #030303;
+    text-shadow: 1px 1px 2px #030303;
 }
 
 .css-arr {

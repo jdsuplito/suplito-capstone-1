@@ -44,7 +44,7 @@
     position: fixed;
     left: 0;
     top: 0;
-    width: 500vw;
+    height: 100vmax;
     animation: colorshift 50s infinite;
 }
 
@@ -106,6 +106,21 @@
     font-size: 2.5rem;
 }
 
+.css-nav-btn.active {
+    animation: active-anim 300ms forwards;
+}
+
+@keyframes active-anim {
+    0% {
+        transform: scaleX(0) scaleY(0.01);
+    }
+    50% {
+        transform: scaleY(0.01);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 
 .css-arrow-down {
     animation: arrow-down 0.90s infinite alternate ease-in-out;
@@ -127,6 +142,12 @@
   100% {
       transform: translateY(10px);
   }
+}
+
+.css-footer-title {
+    font-size: 2rem;
+    font-weight: 900;
+    text-transform: uppercase;
 }
 
 /*MEDIA QUERY*/

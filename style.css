@@ -1,0 +1,122 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#gallery-page {
+    scroll-margin-top: 100px;
+}
+
+#contact-page {
+    scroll-margin-top: 200px;
+}
+
+.css-logo {
+    width: 80px;
+}
+
+.css-avatar {
+    width: 200px;
+}
+
+.css-icons {
+    width: 25px;
+}
+
+.css-dev-font {
+    font-size: 0.8rem;
+}
+
+.css-rights {
+    font-size: 0.7rem;
+}
+
+.css-bg {
+    background-color: #00000020;
+}
+
+.css-li {
+    list-style-type: none;
+}
+
+.css-skills {
+    width: 60px;
+}
+
+.css-iframe {
+    height: 400px;
+}
+
+.form-floating>.form-control.css-textarea{
+    height: 100px;
+}
+
+.css-contact {
+    font-size: 2.5rem;
+}
+
+
+.css-arrow-down {
+    animation: arrow-down 0.90s infinite alternate ease-in-out;
+    text-shadow: 1px 3px 2px #030303;
+}
+
+.css-arr {
+    font-size: 5rem;
+}
+
+.css-arrow {
+    font-size: 1rem;
+}
+
+@keyframes arrow-down {
+    0% {
+      transform: translateY(0);
+  }
+  100% {
+      transform: translateY(10px);
+  }
+}
+
+/*MEDIA QUERY*/
+@media only screen and (max-width: 576px) {
+
+    .css-intro2, .css-gal, .css-info, .css-footer {
+        padding: 1rem;
+    }
+
+    .css-intro {
+        text-align: center;
+    }
+
+    .css-footer {
+        padding-bottom: 4rem;
+    }
+
+    .css-foot {
+        align-self: flex-start;
+    }
+
+    .css-small {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .css-foot {
+        align-self: flex-start;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+
+    .css-foot {
+        align-self: flex-start;
+    }
+}

@@ -8,6 +8,10 @@
     font-family: 'Roboto Condensed', sans-serif;
 }
 
+#landing-page {
+    scroll-margin-top: 300px;
+}
+
 #gallery-page {
     scroll-margin-top: 100px;
 }

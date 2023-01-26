@@ -175,6 +175,10 @@
     .css-foot {
         align-self: flex-start;
     }
+
+    .css-nav-btn {
+        margin-right: 0 !important;
+    }
 }
 
 @media only screen and (max-width: 992px) {
